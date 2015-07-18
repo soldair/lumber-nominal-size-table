@@ -18,3 +18,19 @@ console.log(size)
 ```sh
 npm install
 ```
+
+## API
+
+`module,exports(width,height)`
+
+pass a nominal size and get the matching object in this format
+
+```
+{nominal_size:[w,h],actual_size:[w,h],weight_per_foot_lbs: number}
+```
+
+`.each(fn)`
+
+pass a function as the each back and you can iterate the sizes.
+
+return false to stop.

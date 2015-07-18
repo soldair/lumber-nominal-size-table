@@ -49,7 +49,7 @@ module.exports.each = function(cb){
   } 
 }
 
-var fields = module.exports.fields = ["nominal_size","actual_size", "weight_per_foot_lbs","area"]
+var fields = module.exports.fields = ["nominal_size","actual_size", "weight_per_foot_lbs"]
 
 // weights based on 35 lbs cu in ft
 module.exports.cuinft = 35
