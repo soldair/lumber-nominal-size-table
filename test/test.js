@@ -24,3 +24,27 @@ test("doesn't return size if none matching",function(t){
 
   t.end()
 })
+
+test("each",function(t){
+  
+  var c = 0, row
+  table.each(function(r){
+    ++c;
+    row = r
+  })
+
+  var second = 0;
+  table.each(function(r){
+    second++;
+    return false;
+  })
+
+  t.equals(second,1,'return false stops each')
+
+  t.ok(c > second,'each has more than one row')
+
+  t.ok(row.nominal_size,'should have nominal_size')
+  t.ok(row.actual_size,'should have actual_size')
+
+  t.end()
+})
