@@ -1,0 +1,31 @@
+{
+  "name": "lumber-nominal-size-table",
+  "version": "1.0.0",
+  "description": "table of nominal sizes to actual sizes based on american lumber standards",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soldair/lumber-nominal-size-table.git"
+  },
+  "keywords": [
+    "lumber",
+    "construction",
+    "wood"
+  ],
+  "author": "Ryan Day <soldair@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soldair/lumber-nominal-size-table/issues"
+  },
+  "homepage": "https://github.com/soldair/lumber-nominal-size-table#readme"
+}
